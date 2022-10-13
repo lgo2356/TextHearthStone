@@ -27,10 +27,25 @@ public:
 class Minion : public Card
 {
 public:
-	Minion() : Card(CT_MINION)
+	void SetName(char* name)
+	{
+		_name = name;
+	}
+
+public:
+	Minion(int hp, int attack, int cost) :
+		Card(CT_MINION), _hp(hp), _attack(attack), _cost(cost)
 	{
 
 	}
+
+public:
+	int _hp = 0;
+	int _attack = 0;
+	int _cost = 0;
+
+private:
+	char* _name = nullptr;
 };
 
 class Spell : public Card

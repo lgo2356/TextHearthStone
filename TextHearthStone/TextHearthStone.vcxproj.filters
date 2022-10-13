@@ -18,6 +18,9 @@
     <Filter Include="소스 파일\Player">
       <UniqueIdentifier>{f45e52c4-150b-49a5-8429-1145395a09c9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Monster">
+      <UniqueIdentifier>{2e6caba9-cf07-4535-af04-fdd4e8d8558b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TextHearthStone.cpp">
@@ -32,6 +35,12 @@
     <ClCompile Include="Player.cpp">
       <Filter>소스 파일\Player</Filter>
     </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>소스 파일\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\Monster</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -42,6 +51,12 @@
     </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>소스 파일\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>소스 파일\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\Monster</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
